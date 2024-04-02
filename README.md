@@ -9,6 +9,6 @@
 - Blank Lines: Do not use blank lines within methods. Exclude them.
 - Duplicated Code: Extract duplicated code into a method (in general). There may be exceptions.
 - Variable Declarations: Avoid declaring variables too far from their utilization.
-- Early Returns: In a lot of "ifs", abort conditions as early as possible. Use "return" and "continue".
+- Early Returns: In a lot of "ifs", abort conditions as early as possible. Use "return" and "continue". This way there are no "Hadouken"
 - Excessive Ternaries: Replace overly complex ternary expressions with "if" statements.
 - Exceptions: Instead of returning error codes, throw exceptions.
